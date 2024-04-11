@@ -58,10 +58,10 @@
             'GUESER',
             'HOUSE',
             'LIFTMA',
-            'LITFOP',
+            'LIFTOP',
             'MARKET',
             'PARK',
-            'SECUR',
+            'SECURI',
             'SKIPAT',
             'SNOWMK',
             'TRAILM',
@@ -84,6 +84,7 @@
                 // @ts-ignore
                 mergeCells: worksheets[sheetName].model.merges
               });
+              copySheet.views = [];
 
               //copySheet.model.merge = worksheets[sheetName].model.merge;
               copySheet.name = sheetName;
